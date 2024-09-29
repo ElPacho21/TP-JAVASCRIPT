@@ -10,4 +10,4 @@ Para abir el archivo, se recomienda utilizar encarecidamente Visual Studio Code
 8. Ejecutar el comando "npm run dev" y acceder a la url que se muestra por pantalla
 9. Dentro de la pagina dar "Click Derecho">Inspeccionar y dirigirse a la consola
 
-Link de la Página deployada en Vercel: https://tp-css-facundo-reches-projects.vercel.app/
+Link de la Página deployada en Vercel: https://tp-javascript.vercel.app/
