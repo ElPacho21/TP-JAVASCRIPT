@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>TP JavaScript</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Trabajo Práctico de JavaScript</h1>
+    </header>
+
+    <section class="sectionContent">
+      <div class="pContent">
+        <div>
+          <h2>
+            Parrafos
+          </h2>
+          <div id="pText">
+            <p>
+              Este es el primer párrafo
+            </p>
+            <p>
+              Este es el segundo párrafo
+            </p>
+            <p>
+              Este es el tercer párrafo
+            </p>
+          </div>
+          <div>
+            <button class="buttonBlue" id="buttonColor">
+              Cambiar de Color
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form">
+        <h2>
+          Formulario
+        </h2>
+        <form id="form">   
+            <label>Ingresa un texto:</label>
+            <input id="inputForm" class="input" type="text" placeholder="Ingresa un Mensaje"/>
+            
+            <button id="buttonForm" class="buttonBlack">Mostrar Alerta</button>
+        </form>
+      </div>
+
+
+      <div>
+        <h2>
+          Lista con Elementos
+        </h2>
+        <div>
+          <ul id="list" class="list">
+            <li>
+              Elemento 1
+            </li>
+            <li>
+              Elemento 2
+            </li>
+            <li>
+              Elemento 3
+            </li>
+            <li>
+              Elemento 4
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div>
+        <h2>
+          Campo de Texto y Botones
+        </h2>
+        <input type="text" id="input" class="input" placeholder="Ingresa algo">
+        <button id="disabledButton" class="buttonBlack">Deshabilitar Campo</button>
+        <button id="enabledButton" class="buttonBlack">Habilitar Campo</button>
+      </div>
+
+
+      <div>
+        <h2>
+          Correo en Local Storage
+        </h2>
+        <form>
+          <label>Correo Electrónico: </label>
+          <input id="inputEmail" class="input" type="email" placeholder="Ingresa el Correo">
+          <button id="buttonEmail" class="buttonBlack">Guardar Correo</button>
+          <div id="savedEmail"></div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h1>Facundo Pacci 50118 - 3k9</h1>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
